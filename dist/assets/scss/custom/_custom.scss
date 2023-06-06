@@ -16,6 +16,11 @@ body {
 }
 /* End::body */
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: 'Prompt', sans-serif;
+}
 *::-webkit-scrollbar {
   width: 0.25rem;
   height: 0.25rem;

@@ -605,7 +605,7 @@ var options1 = {
     },
     xaxis: {
         type: 'week',
-        categories: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+        categories: ['จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส', 'อา'],
         axisBorder: {
             show: true,
             color: 'rgba(119, 119, 142, 0.05)',
@@ -694,12 +694,13 @@ function leads(myVarVal) {
 
     chartInstance.data.datasets[0] = {
         label: 'My First Dataset',
-        data: [32, 27, 25, 16],
+        data: [1624, 1153, 679, 679, 679],
         backgroundColor: [
             `rgb(${myVarVal})`,
-            'rgb(35, 183, 229)',
             'rgb(245, 184, 73)',
             'rgb(38, 191, 148)',
+            '#df2b2b',
+            '#272727',
         ]
     }
     chartInstance.update();

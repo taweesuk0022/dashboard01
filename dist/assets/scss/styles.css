@@ -64,6 +64,7 @@ typography
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 /* Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --body-bg-rgb:	240, 241, 247;
   --primary-rgb:	132, 90, 223;
@@ -8976,6 +8977,10 @@ body {
 }
 
 /* End::body */
+* {
+  font-family: "Prompt", sans-serif;
+}
+
 *::-webkit-scrollbar {
   width: 0.25rem;
   height: 0.25rem;
@@ -11431,17 +11436,20 @@ a, button {
   inset-block-start: 0.375rem;
   inset-inline-start: -0.625rem;
 }
-.crm-lead-legend.mobile:before {
+.crm-lead-legend.facebook:before {
   background-color: var(--primary-color);
 }
-.crm-lead-legend.desktop:before {
-  background-color: rgb(var(--secondary-rgb));
-}
-.crm-lead-legend.laptop:before {
+.crm-lead-legend.line:before {
   background-color: rgb(var(--warning-rgb));
 }
-.crm-lead-legend.tablet:before {
+.crm-lead-legend.twiiter:before {
   background-color: rgb(var(--success-rgb));
+}
+.crm-lead-legend.youtube:before {
+  background-color: #df2b2b;
+}
+.crm-lead-legend.sms:before {
+  background-color: #272727;
 }
 
 .crm-leadsinprogress {

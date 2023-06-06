@@ -16,6 +16,11 @@ body {
 }
 /* End::body */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&family=Prompt:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  font-family: 'Noto Sans Thai', sans-serif;
+}
 *::-webkit-scrollbar {
   width: 0.25rem;
   height: 0.25rem;

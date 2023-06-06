@@ -926,20 +926,24 @@
     inset-inline-start: -0.625rem;
   }
 
-  &.mobile:before {
+  &.facebook:before {
     background-color: $primary;
   }
 
-  &.desktop:before {
-    background-color: $secondary;
-  }
-
-  &.laptop:before {
+  &.line:before {
     background-color: $warning;
   }
 
-  &.tablet:before {
+  &.twiiter:before {
     background-color: $success;
+  }
+
+  &.youtube:before {
+    background-color: #df2b2b;
+  }
+
+  &.sms:before {
+    background-color: #272727;
   }
 }
 
